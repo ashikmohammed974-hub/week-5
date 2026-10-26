@@ -18,6 +18,6 @@ float number1 = getNumberFromUser("Enter a number: ");
 
 // put function definitions here:
 float myFunction(float x, float y) {
-  return x + y;
+  return x * y;
   Serial.println("The result is: " + String(result));
 }
